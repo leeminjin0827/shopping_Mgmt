@@ -5,21 +5,30 @@ html,body{ height: 100%; }
 body{ background-color: #d1d1d1; }
 a{ text-decoration : none; color: white;}
 li{ list-style : none; }
+input{ box-sizing : border-box; }
 /* all */
 
 #wrap{
 	min-height: 100%;
 	position: relative;
 }
-
 #header{
 	background-color: #294fbf;
-	font-size: 30px;
 	color: white;
-	text-align: center;
+}
+#header > p{
+	font-size: 30px;
 	padding: 20px 0px;
+	text-align: center;
 }
 /* header fin */
+
+#home h1 , #write h1 {
+	padding: 20px 0px;
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+}
 
 #menu{
 	background-color: #528cd7;
@@ -34,20 +43,49 @@ li{ list-style : none; }
 	margin-left: 30px;
 }
 #menu > ul li a{
-	font-weight: bold;
+	font-weight: bold; font-size: px;
 }
 /* menu fin */
 
 #home{
 	margin: 0px 10px;
 }
-#home h1{
-	padding: 20px 0px;
-	text-align: center;
-	font-size: 24px;
-	font-weight: bold;
-}
+
 /* home fin */
+
+.table{
+	margin: 0 auto;
+}
+.table , .table tr th , table tr td{
+	border : 1px solid black;
+}
+.table tbody tr th{
+	padding: 0px 5px;
+	max-width: 220px; 
+}
+.table tbody tr td{
+	width: 300px;
+}
+.table tbody tr td input{
+	width: 100px;
+}
+.table tbody tr td > #phone{
+	width: 150px;
+}
+.table tbody tr td > #address{
+	width: 200px;
+}
+
+.btn_tr{
+	text-align: center;
+}
+.btn_box{
+	text-align: center;
+}
+
+#write{
+	
+}
 
 #footer{
 	background-color: #1377f7;

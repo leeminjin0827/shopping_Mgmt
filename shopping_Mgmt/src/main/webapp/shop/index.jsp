@@ -5,13 +5,10 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
-<link rel='stylesheet' href='../css/shop.css' >
 </head>
 <body>
 	<div id="wrap">
 		<jsp:include page="header.jsp" />
-		
-		<jsp:include page="nav.jsp" />
 		
 		<section id="home">
 			<h1>쇼핑몰회원관리 프로그램</h1>

@@ -3,15 +3,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8"> 
+<meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
 <body>
 
-	<header id="header">
-		<p>쇼핑몰 회원관리 ver 1.0</p>
-	</header>
+	<div>
 	
+		<jsp:include page="../header.jsp"></jsp:include>
+		
+	</div>
 
 </body>
 </html>
